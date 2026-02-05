@@ -29,10 +29,10 @@ defmodule PhoenixSEOTools.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:phoenix, "~> 1.7.20"},
-      {:phoenix_live_view, "~> 1.0.5"},
+      {:phoenix, "~> 1.8.1"},
+      {:phoenix_live_view, "~> 1.1.0"},
       {:ex_doc, "~> 0.29", only: :dev, runtime: false},
-      {:jason, "~> 1.0"}
+      {:jason, "~> 1.2"}
     ]
   end
 
