@@ -196,7 +196,7 @@ defmodule PhoenixSEOTools.SEO do
       [
         new_page_meta("og:title", build_page_title(options.title, options)),
         new_page_meta("og:type", "website"),
-        new_page_meta("og:locale", "sv_SE"),
+        new_page_meta("og:locale", "en_US"),
         new_page_meta("og:description", options.description |> strip_html_tags() |> truncate()),
         new_page_meta("og:url", get_current_url(conn_or_socket, options)),
         new_page_meta("og:image", options.image)
